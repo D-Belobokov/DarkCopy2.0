@@ -15,7 +15,7 @@ public class MainCloneAuto {
         System.out.println(villageAuto);
 
         Auto autoVillage2 = auto.clone();
-        Engine engine = new Engine("Cummins",+ 15);
+        Engine engine = new Engine("Cumminsqsx - ",+ 15);
         autoVillage2.setName("Вася");
         autoVillage2.setBrand("Енисей");
         autoVillage2.setModel("Комбайн");
