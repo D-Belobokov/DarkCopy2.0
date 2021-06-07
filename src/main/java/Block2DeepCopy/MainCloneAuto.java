@@ -1,7 +1,5 @@
 package Block2DeepCopy;
 
-import java.lang.reflect.Field;
-
 public class MainCloneAuto {
     public static void main(String[] args) throws CloneNotSupportedException {
 
@@ -20,6 +18,7 @@ public class MainCloneAuto {
         autoVillage2.setBrand("Енисей");
         autoVillage2.setModel("Комбайн");
         autoVillage2.setEngine(engine);
+
         System.out.println(autoVillage2);
     }
 }
